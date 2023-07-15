@@ -1475,7 +1475,11 @@ const App = () => {
         </Grid>
       </Card>
        ) : (
-        <div>Fin</div>
+        <div>
+          <Alert severity="warning">Total Preguntas: {preguntas.length}</Alert>
+          <Alert severity="success">Actualiza la página o presiona F5 para empezar nuevamente</Alert>
+        </div>
+        
       )}
 
       <Grid container spacing={2}>

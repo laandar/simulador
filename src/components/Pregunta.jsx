@@ -21,7 +21,7 @@ const Pregunta = ({ pregunta, opciones, handleRespuesta }) => {debugger
     <div id='padre'>
       <h2>{pregunta}</h2>
       {opciones.map((opcion, index) => (
-        <Button variant="contained" id='botonD' type='radio' key={index} onClick={() => handleOptionChange(opcion,handleRespuesta)}>
+        <Button sx={{ m:1 }} variant="contained" id='botonD' type='radio' key={index} onClick={() => handleOptionChange(opcion,handleRespuesta)}>
           {opcion}
         </Button>
 
