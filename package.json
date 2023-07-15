@@ -1,7 +1,7 @@
 {
   "name": "simulador-preguntas",
   "version": "0.1.0",
-  "homepage": "http://laandar.github.io/simulador",
+  "homepage": "https://laandar.github.io/simulador",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.1",
